@@ -127,7 +127,7 @@ function sys=mdlOutputs(t,x,u)
   if ds > 100.0 / 3.6 * 0.2
       ds = 0;
   end
-  ds = DsMeanFilter(ds, 120);
+%  ds = DsMeanFilter(ds, 120);
 %   steer_angle = SteerMeanFilter(steer_angle, 40);
   % updata coordinate of tractor
   x_last = x;
